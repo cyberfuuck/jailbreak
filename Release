@@ -1,0 +1,8 @@
+Origin: Ayden's Repo
+Label: Ayden's Repo
+Suite: stable
+Version: 1.1
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: 个人私有源，仅做备份，仅供娱乐，插件来自网络共享，出各种问题一概不负责
