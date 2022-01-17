@@ -6,17 +6,58 @@ Maintainer: Ayden
 Installed-Size: 31924
 Depends: mobilesubstrate, coreutils-bin, zip, unzip
 Conflicts: app.weiphone.ALS, app.weiphone.IGG, app.weiphone.NZT, app.weiphone.LRN
-Filename: GitHub/jailbreak/debs/axj.deb
-Size: 7227712
-MD5sum: afef846fea1bcd682712c1f8569f0ef8
-SHA1: 2f6ff913e59922ce460f9ed9208740a4612fd6de
-SHA256: 43c82b71d358211202a84cd5089705d37fc757e90a47b7266ce4fd6900571081
+Filename: debs/axj.deb
+Size: 7227928
+MD5sum: 5855381679ba08134a7bf4c3a1c4e8bc
+SHA1: b5ff075d16b13aec2a32727e936c80b4f9b1d24d
+SHA256: 7739aede72fcaf898e031d4cf0d376711995befca3b2909d3fa3412d4fed6492
 Section: Tweaks
 Priority: standard
 Description: AXJ爱新机(64位),支持14.8系统，如果闪退的话多点几次能进去，来自<冷冷雨源>
 Tag: role::enduser
 Author: AXJ爱新机(64位)
 Name: AXJ爱新机破解版
+Sponsor: Ayden
+
+Package: Ayden.Flex3beta
+Version: 1:3~Beta98.1
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/flex3beta.deb
+Size: 9920056
+MD5sum: ff831116dbc3a2ce99c9b057fcb72b20
+SHA1: a134fb0f68d25fb382b46544e888da55e79b1ce6
+SHA256: 86a004d1046d84d194c52fcc4086010ab3affe9760e43093465882168310ed66
+Section: Utilities
+Description: 一款强大的App去广告和系统补丁增强神器。 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: John Coates
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: Flex 3 程序修改器
+Sponsor: Ayden
+
+Package: Ayden.NSFWgram
+Version: 0.0.6
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/nsfwgram.deb
+Size: 4068
+MD5sum: 712b117750f3791c7e7ecbbe2552ca75
+SHA1: 2b482517d0f668ae3762fb15a27b179c1c24878c
+SHA256: 4ccba27ceedf8ba6960804ccc1ccb475a8d28cda48884c6215d63405be113074
+Section: Tweaks
+Description: Telegram和TelegramX解锁被封禁群，支持最新版 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: Ninji
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 1.png
+Name: NSFWgram解锁封禁群
 Sponsor: Ayden
 
 Package: Ayden.afc2d-arm64
@@ -29,12 +70,12 @@ Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: GitHub/jailbreak/debs/afc2d.deb
-Size: 12744
-MD5sum: 264f2a54265f2ecf13a6cb2ce428825a
-SHA1: 69717135e90ca6d4285cc8ac6ea7aca314e3c03a
-SHA256: bcf561409d6be1f7a8eebea69a485b163f7b931e1712e9d97f9e3644cdaedef4
-Section: 系统
+Filename: debs/afc2d.deb
+Size: 12748
+MD5sum: 41caa4a561f6c83b61ecfd69d6fa9921
+SHA1: 0cf4968023720647f704870d207f93cfe5bd43f8
+SHA256: f368c69335dfdea681bbceb8250696220d6e6f0f0de5aa41641a0e60ccf1e250
+Section: Tweaks
 Description: 激活iOS设备PC端，所有路径访问权限,14.8系统可用,来自<小苹果源>
 Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
 A12: 1
@@ -49,12 +90,12 @@ Version: 0.9.18
 Architecture: iphoneos-arm
 Maintainer: Ayden
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: GitHub/jailbreak/debs/appstoreplus.deb
-Size: 2001624
-MD5sum: 12c4fc4c4b48101c5c1e96040b19352a
-SHA1: 08e712d8e2100ff6620310b2aa1e67fdb5d1f946
-SHA256: 9241ef11d306b3da12d3438c7e4877f11486e6d51b1e96793ce6d1e2257d8e5e
-Section: 系统
+Filename: debs/appstoreplus.deb
+Size: 2001620
+MD5sum: 8bf32db688ae89716ec0ae3e83eef627
+SHA1: 2bd5ffc703b654ac9c2f178c6eaba6763ceb19bf
+SHA256: 12b74b3a4bdeb089636cb6447c566cd862ac5d59acff5fcdb3bcfd050ad9ef87
+Section: Tweaks
 Description: App Store应用降级，支持解除200M下载限制,开启无视200M下载具体操作如下,安装完成之后进入商店 按住头像,弹出设置界面，勾选3G/4G即可,依赖源https://cokepokes.github.io/14.8可用<来自小苹果源>
 A12: 1
 Author: CokePokes
@@ -71,11 +112,11 @@ Installed-Size: 5068
 Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
-Filename: GitHub/jailbreak/debs/audiorecorderxs.deb
+Filename: debs/audiorecorderxs.deb
 Size: 1064204
-MD5sum: e3eac66f45b46772ff8916115d96c4cc
-SHA1: f5cb2ba86a7c3f6932d742b1e1d2ea5a84065f91
-SHA256: 707c0d38f2d62c2ec6bc000b51c67d167724d1f7b3bba24c9a94841c5e8663e9
+MD5sum: 7a2e376118559bc9cfdafbabc6d48b8d
+SHA1: 6e7bc8f7384cc839d1b5d800017e0442aa8970e6
+SHA256: a7251b2dc09f26a514cc64881f39836bfeffd92fad5e5ee8872b65bf2e04a552
 Section: Tweaks
 Description: audiorecorderxs,来自作者源，支持14.4以上系统，14.8测试还有问题，作者源https://limneos.net/betarepo/
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -88,12 +129,12 @@ Architecture: iphoneos-arm
 Maintainer: Ayden
 Installed-Size: 1368
 Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.opa334.ccsupport, com.opa334.altlist, com.udevs.vexillarius
-Filename: GitHub/jailbreak/debs/bakgrunnur.deb
-Size: 257344
-MD5sum: 29a4460fb89f54fdf779576eeb2083c3
-SHA1: addf8918082b30d942d9589d95b077dc1892545e
-SHA256: be9b70ff1c6b40adaedc0bd924fe11e3935e4d4372bf35ff4d6289f4b26fa841
-Section: 系统
+Filename: debs/bakgrunnur.deb
+Size: 257336
+MD5sum: ec1c39edb37c76d5fb53f655d04a7bfe
+SHA1: 9e18490faec5aa4d80f54320e89958ef7ae10264
+SHA256: 1baebd720de68709de4c8eb54461d45ff052b0271da2f220aa88b576ceab1b05
+Section: Tweaks
 Description: 真实后台，包括锁屏时也不掉后台，可以在3DTouch菜单开启或禁用真后台，依赖源：https://udevsharold.github.io/repo/ 14.8系统可用,来自<小苹果源>
 A12: 1
 Author: udevs
@@ -108,12 +149,12 @@ Architecture: iphoneos-arm
 Maintainer: Ayden
 Installed-Size: 848
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: GitHub/jailbreak/debs/choicy.deb
-Size: 110476
-MD5sum: c28b145cf976fad2a3f85c51b0a61e47
-SHA1: 9acbec6bbe4b834d5a92e8c51cb20010b8786e9e
-SHA256: 45455d389fd2432d6424ea98735cfdd4ac76e717b526a0061fa6b2725f3d07fb
-Section: 系统
+Filename: debs/choicy.deb
+Size: 110472
+MD5sum: 5985d4756a96c9ad3133c5b96b2ce799
+SHA1: 9656fb3f67eac12f7436634f86868f416072c6ad
+SHA256: a9d91b226b38030e1741823f43808b96c12bdee92d4ec3de878fe88106a6cff5
+Section: Tweaks
 Description: 更准确的屏蔽越狱检测，全功能完整汉化版，可配合JailProtect使用,14.8可用，来自<小苹果源>
 A12: 1
 Author: opa334
@@ -127,11 +168,11 @@ Version: 4.0~beta10a
 Architecture: iphoneos-arm
 Maintainer: Ayden
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: GitHub/jailbreak/debs/cracktool4.deb
-Size: 1930388
-MD5sum: 33f7a2b0ac64e443287a3be29fb1829c
-SHA1: 6916c61378ee4a866e8cf022ea9268a4f74dd6ac
-SHA256: e6aa681bef7dfb31b82f9c8cc5665aa9899aab53f5f09586d5975ec46db609f2
+Filename: debs/cracktool4.deb
+Size: 1931100
+MD5sum: 89a33dddb6f65337b25d51ddc9136e46
+SHA1: 7171a76aba282aea56620ae7ec1c4c9764606c84
+SHA256: 7a898d8380f6cef1921bf1ded9508bd34a8b39ee5d65aaf351b6ecb56a4a7272
 Section: Tweaks
 Description: 快速破解多款热门官方正版插件，支持Filza，iCleanerPro等插件的破解 14.8系统可用,来自<小苹果源>
 A12: 1
@@ -146,12 +187,12 @@ Version: 7.1.2
 Architecture: iphoneos-arm
 Maintainer: Ayden
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: GitHub/jailbreak/debs/cydown.deb
-Size: 2617368
-MD5sum: 21f66de0eefd01e009d1cbde906a6660
-SHA1: 2eda8a2b1d4c994d2e0a9287c4a42f34f30b3e1e
-SHA256: f9fc72539f3593abdd4fdd9671f0663e3f646865ac5f8e61bbb61f9560ecad2e
-Section: 工具
+Filename: debs/cydown.deb
+Size: 2617364
+MD5sum: 9de9294726c5b3ac7fd27492c4d4eb1e
+SHA1: 1a86766777e7c31ced1022fa38d60cd15d11dfd8
+SHA256: ca8829eb8b0faa4a0e63d1400a443950703c49f8db801f3709723c34aeb2309a
+Section: Utilities
 Description: Cydia/Zebra/Installer下载增强,已完整汉化 14.8系统可用,来自<小苹果源>
 A12: 1
 Author: julioverne
@@ -160,19 +201,356 @@ Icon2: 5.png
 Name: CyDown破解收费插件
 Sponsor: Ayden
 
+Package: Ayden.filza
+Version: 3.9.0-2
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 32244
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
+Filename: debs/filza.deb
+Size: 10431288
+MD5sum: b236762571bc70e749e546fcf424579d
+SHA1: 72fe13f7c95a5f0f0bd3970d9cc71e1d79f7e0a9
+SHA256: 7540e4d13fcaf07bff17a8717260f1b8b4b108520a7b3dd6d28bd7f292d13823
+Section: Utilities
+Description: iOS平台文件夹管理器，配合Filza File 文件管理器【破解补丁】使用，如无法激活，请用
+ iCleaner Pro删除Filza的配置文件既可 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: TIGI Software
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: Filza File 文件管理器【正版】
+Sponsor: Ayden
+
+Package: Ayden.flyjbx
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 1580
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb, kr.xsf1re.flyjbx, netskao.flyjb
+Filename: debs/flyjbx.deb
+Size: 636344
+MD5sum: b5510737df2d71a3de91868630309789
+SHA1: 83d568e8ee38e87c517ba8d28f2e636d913d8170
+SHA256: a09fe22c95b06d17e259941ce53da3b28d72d51daf4982fe07890ef39d9c2a26
+Section: Tweaks
+Description: 屏蔽越狱检测 激活指纹 面容支付 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: XsF1re
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: FlyJB X屏蔽越狱检测
+Sponsor: Ayden
+
+Package: Ayden.frame
+Version: 2.4.4
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 8536
+Depends: mobilesubstrate,preferenceloader,firmware (>= 12.1.9)
+Filename: debs/frame.deb
+Size: 1278880
+MD5sum: 4045fa6910551affd020ebd644c65b6c
+SHA1: 9b5e86e397e9eec60c2b8519fb38eddc247130c7
+SHA256: 67f3358492f1a5224e309257d10afea21d068db439745ba61e527ed2dc2ecf79
+Section: Tweaks
+Description: 主屏幕添加视频为墙纸，本版本兼容12.2以上系统 特别说明：如提示权限错误，请在使用Filza在/var/mobile/Documents新建一个文件夹com.ZX02.Frame 点击右侧感叹号，点击暂停，修改上方权限为0777保存即可解决！ 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: Zerui Chen
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: Frame视频墙纸
+Sponsor: Ayden
+
+Package: Ayden.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/goodwifi.deb
+Size: 81924
+MD5sum: 899e932c2a8cd4eda6d47e1f6db14a9f
+SHA1: b0c1410e33a80f5e0f14ba0ae201357356e8153d
+SHA256: 248d377c45fbb5448e54486f84ae475392ca5ca756e7e936fd733b7837cedb6b
+Section: Tweaks
+Description: 无线信息显示 密码显示 ，更新支持A12 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: julioverne
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: GoodWiFi 无线信息
+Sponsor: Ayden
+
+Package: Ayden.jailprotect
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Depends: mobilesubstrate
+Filename: debs/jailprotect.deb
+Size: 16380
+MD5sum: 50582fca94b1ad8af2707d77ee4ac72d
+SHA1: 0b19d1a153ddf1971347a6d86262b8894f75248e
+SHA256: 7722fda42e6ab32c5ef36fa2d0b249c14c1320aecf39a913b1c1808b35419bc6
+Section: Tweaks
+Description: Bypass jailbreak detection在choicy中把jailbreak 全局关掉，在需要屏蔽的应用中开启，实现屏蔽越狱 来自<repo.qqtlr.com>
+Author: admin
+Name: Jailprotect
+
+Package: Ayden.nfcwriterx
+Version: 3.2-48+debug
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Depends: firmware (>= 11.0), mobilesubstrate, net.limneos.libbulletin
+Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, me.kanam.nfcwriterquickaction, net.limneos.nfcwriterx
+Filename: debs/nfcwriterx.deb
+Size: 757968
+MD5sum: b3a2f5d98c479eb58f166c801cee202b
+SHA1: ec60721132cd4fa50248ee0810173ce9c0341aa8
+SHA256: d30e7fd446ec552f9e1ff27f441c19ec2742c274e46d087c8aebf1d20353105b
+Section: Utilities
+Description: NFCWriter XS 破解版 破解源：repo.lifpa.com
+Author: Elias Limneos
+Name: NFCWriter XS Crack
+
+Package: Ayden.qqanitirecallhook
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 242
+Depends: mobilesubstrate
+Filename: debs/qqanitirecallhook.deb
+Size: 26832
+MD5sum: 63bedcc8430ca3e68f27deaa914644e7
+SHA1: 1e3d948c9736784b706d441dc9d9debeeb8ce812
+SHA256: fcda2dc0ac7f63c3f9e52e3553cbd26163a880a92a0611022559d8c64cf89111
+Section: Tweaks
+Description: QQ/Tim防撤回带提示，仅此功能无开关，使用前请关闭其他同类QQ防撤回！14.8系统可用,来自<小苹果源>
+A12: 1
+Author: TouGBao
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 1.png
+Name: QQanitiRecall-QQ/Tim防撤回
+Sponsor: Ayden
+
+Package: Ayden.qqflashphotoshelper
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 580
+Depends: mobilesubstrate
+Conflicts: netskao.qqflashphotoshack
+Filename: debs/qqflashphotoshelper.deb
+Size: 113292
+MD5sum: 9897f801ad0b8a02bae6dda4b6415f67
+SHA1: f8a8b70177c5927c7c734fd4ab3a4d88d3a9b521
+SHA256: 832c658cb99448cf1eb2c25577a672dc47f2cc9067a88d6ba0bce3c349828af9
+Section: Tweaks
+Description: 闪照小助手，自动保存，防止截图屏蔽，截图被屏蔽后开启查看闪照功能，支持所有版本QQ和TIM 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: 7Loopy
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 1.png
+Name: QQFlashPhotosHelper闪照小助手
+Sponsor: Ayden
+
+Package: Ayden.relocatereborn
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Filename: debs/relocatereborn.deb
+Size: 69968
+MD5sum: 57d19ead37e96d9c50286495e66beb9c
+SHA1: 82f1d6437d62b41bba617dd90011b644fb261a6d
+SHA256: 96640efd6a681421c6ca4b5b7f8df0915dad9e14a8c322d821060737d75f048a
+Section: Tweaks
+Description: 简单的定位插件，定位有误差，可以单独设置应用定位，可根据需要分别使用where或者relocatereborn.官方源repo.nepeta.me(挂了）
+Author: Nepeta
+Name: Relocate Reborn
+
+Package: Ayden.respringx
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 300
+Depends: mobilesubstrate, com.smokin1337.ldrestarthelper
+Filename: debs/respringx.deb
+Size: 122160
+MD5sum: 7f9d056d974e3e15f082c5dcc809e149
+SHA1: 6aeee07e5338a02991435564ded620231f075e06
+SHA256: 8c0fac0984b3457e13756d6be7b02adabf441b62641669b88ecb912b5ab16864
+Section: Tweaks
+Description: 简单的系统增强，注销重启设备用， 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: MayBeMe
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: RespringX关机增强
+Sponsor: Ayden
+
+Package: Ayden.runaway
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 300
+Depends: mobilesubstrate
+Filename: debs/runaway.deb
+Size: 18412
+MD5sum: be1a95edd1a92571e4a21b3b863875af
+SHA1: 39196b30cf1ce523285751778705e350b040b3e7
+SHA256: 99dffc785016a1231d461d3395abf17cf79fe0c41b8efe829a943e1264cdf839
+Section: Tweaks
+Description: 左上角时间范围内显示网络速度，仅支持 iPhone X 和以上的设备，14.8系统可用,来自<小苹果源>
+Tag: compatible_min::ios13.3, compatible_max::ios13.3
+A12: 1
+Author: ned
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: Runaway状态栏网速
+Sponsor: Ayden
+
+Package: Ayden.smartvpn
+Version: 1.2.8
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 545
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, applist, ws.hbang.common (>= 1.11)
+Filename: debs/smartvpn.deb
+Size: 22384
+MD5sum: a61bedfe99d24bbb56a2ef99aea4c796
+SHA1: 25bf39242fec0eea11291dce83bd398afad910d4
+SHA256: 0ade811b5e4fb04efe5c99f44e37628cfee5185275dfc1430ae7d882adb6b0cd
+Section: Tweaks
+Priority: optional
+Description: 特定应用自动启动/关闭VPN功能，注意：这只是手机功能增强并不是梯子，梯子需自备 14.8系统可用,来自<小苹果源>
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+A12: 1
+Author: yabeizhao
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: SmartVPN科学上网增强
+Sponsor: Ayden
+
+Package: Ayden.sneakycam
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/sneakycam.deb
+Size: 105804
+MD5sum: 9ca45b90f18d1bd9f75b612df8c3dec7
+SHA1: a30b149e09dd3a189f96c102b3ccbb0f9b1bcdbc
+SHA256: a8869e136c1ec89021eb48c85a3fc90ca1a90e68a01e93aa0a9fabf67096a473
+Section: Tweaks
+Description: 即使屏幕关闭，也可以从任何地方独立拍摄照片或录制视频 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: Spark
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: SneakyCam隐私相机
+Sponsor: Ayden
+
+Package: Ayden.storeswitcher2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 276
+Depends: firmware (>= 11), mobilesubstrate
+Filename: debs/storeswitcher.deb
+Size: 21320
+MD5sum: 1d5c9aa6c34093f8a4172a59a720e967
+SHA1: 991d713c9b1ffe04bbb0305fc6c6dbb845726083
+SHA256: 88768c8c9a1a0acddb583ca5928793628e9e5a71ccfb68c4b8d81885c3dbb4e0
+Section: Tweaks
+Description: App Store快速切换登录过的账号 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: subdiox
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: StoreSwitcher 2账号切换
+Sponsor: Ayden
+
+Package: Ayden.unicorn
+Version: 5.3
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 3030
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/unicorn.deb
+Size: 661100
+MD5sum: 37779706dde11206dda85fc55e17a51e
+SHA1: d324ba8e29cb22e8038fd5689ef4a03aa5893ca3
+SHA256: 87ae2bcf90fc4da189e877533d1d761ab1d3a10c89a9a76a44cf700149f7ca44
+Section: Tweaks
+Priority: optional
+Description: 下载TikTok视频和其他许多改进，删除TikTok广告等等，具体效果自测 14.8系统可用,来自<小苹果源>
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+A12: 1
+Author: Michael Lema
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 1.png
+Name: Unicorn TikTok增强
+Sponsor: Ayden
+
+Package: Ayden.unsub
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 624
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, firmware (>= 9.0)
+Conflicts: co.vexation.nosubstitute, com.opa334.nosubstitute12
+Filename: debs/unsub.deb
+Size: 41472
+MD5sum: 9068a998cfc3eaa75751a70db596790c
+SHA1: 4001187b68c32b0cfd1391fa14dfd46de2af62b9
+SHA256: e942068fbe70407a0e2978ff688170a1797fa6bca3f0b57272d065effaf0306d
+Section: Tweaks
+Description: 屏蔽软件越狱检测 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: Nepeta
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 12.png
+Name: UnSub 屏蔽越狱检测
+Sponsor: Ayden
+
 Package: Ayden.where
 Version: 1.5-1
 Architecture: iphoneos-arm
 Maintainer: Ayden
 Installed-Size: 500
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Filename: GitHub/jailbreak/debs/where.deb
+Filename: debs/where.deb
 Size: 48272
-MD5sum: 8464f956d9b34485d5bc10066752ad04
-SHA1: 798941473c270cff03d2a4daacf90a8f0eddbf1b
-SHA256: 633e8264da99f7c1e4a77ebea04a081d52daed097e74d42fddec5ff0c15e7618
+MD5sum: f4ff7b6a872fbd99d53d1f17b2f65a18
+SHA1: 2cd4058320755798f12add6e378a65ae080ad8d0
+SHA256: cea8ff6d7d64b81bf2778d81f663a8dbc9b4771f0986debd3237fd6aede96fed
 Section: Tweaks
 Description: 轻量级虚拟定位插件，依赖ccsupport,可以在控制中心一件开启 来自<果仁部落™>
 Author: 4nni3 <4nni3.14@gmail.com>
 Name: Where 虚拟定位
+
+Package: Ayden.xkfilza
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Ayden
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/xkfilza.deb
+Size: 6272
+MD5sum: 26b7363560cc54e58f58221ecc3325d5
+SHA1: 97751148ecd6c03b4297c6a40edfdb9cfd35b14f
+SHA256: b1061dcc4ad765cb5d1ac716c3cad80446473f29edb32bae011fad69d30c3f1e
+Section: Tweaks
+Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁 14.8系统可用,来自<小苹果源>
+A12: 1
+Author: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: Filza File 文件管理器【破解补丁】
+Sponsor: Ayden
 
